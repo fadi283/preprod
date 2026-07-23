@@ -6,7 +6,7 @@ metadata:
   name: preprod
   namespace: preprod
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: preprod
